@@ -18,7 +18,7 @@ except Exception as e:
 def extract_data_with_ai(text):
     # Using 'gemini-pro' as it is the most compatible name for older API versions
     # If this fails, change it back to 'gemini-1.5-flash'
-    model = genai.GenerativeModel('gemini-pro')
+    model = genai.GenerativeModel('gemini-1.5-flash-latest')
     
     prompt = f"""
     Extract the following details from this Purchase Order text and return ONLY a valid JSON object.
