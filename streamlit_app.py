@@ -8,7 +8,7 @@ import json
 st.set_page_config(page_title="Smart PO Extractor", layout="wide")
 
 # Your actual API Key from the screenshot
-API_KEY = "AIzaSyD6HfD1Ny0-eDIN39cKVbGhvfae1Gv8y2s" 
+API_KEY = "AIzaSyAMt8RmMWvlMno1OBjaWwOPzsxpGw4NPhA"
 genai.configure(api_key=API_KEY)
 
 def extract_data_with_ai(text):
