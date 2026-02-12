@@ -8,7 +8,7 @@ import json
 st.set_page_config(page_title="Smart PO Extractor", layout="wide")
 
 # IMPORTANT: Make sure there are NO spaces inside the quotes with your key
-API_KEY = "AIzaSyD6HfD1Ny0-eDIN39cKVbGhvfae1Gv8y2s" 
+API_KEY = "AIzaSyAMt8RmMWvlMno1OBjaWwOPzsxpGw4NPhA" 
 
 try:
     genai.configure(api_key=API_KEY)
