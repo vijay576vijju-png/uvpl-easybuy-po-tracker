@@ -13,7 +13,7 @@ API_KEY = "AIzaSyD6HfD1Ny0-eDIN39cKVbGHvfae1Gv8y2s"
 genai.configure(api_key=API_KEY)
 
 def extract_data_with_ai(text):
-    model = genai.GenerativeModel('gemini-1.5-flash-latest')
+    model = genai.GenerativeModel('gemini-1.5-pro')
     prompt = f"""
     You are a professional Purchase Order (PO) analyzer. 
     Extract the following details from the provided text and return ONLY a valid JSON object.
