@@ -9,7 +9,7 @@ st.set_page_config(page_title="AI PO Extractor", layout="wide")
 
 # IMPORTANT: Replace the text below with your actual Gemini API Key
 # You can get it from: https://aistudio.google.com/app/apikey
-API_KEY = "YOUR_GEMINI_API_KEY_HERE" 
+API_KEY = "AIzaSyD6HfD1Ny0-eDIN39cKVbGHvfae1Gv8y2s" 
 genai.configure(api_key=API_KEY)
 
 def extract_data_with_ai(text):
