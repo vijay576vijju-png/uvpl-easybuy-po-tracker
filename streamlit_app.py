@@ -19,7 +19,7 @@ def extract_data_with_ai(text):
     # Using 'gemini-pro' as it is the most compatible name for older API versions
     # If this fails, change it back to 'gemini-1.5-flash'
     model = genai.GenerativeModel('gemini-1.5-flash-latest')
-    
+
     prompt = f"""
     Extract the following details from this Purchase Order text and return ONLY a valid JSON object.
     Fields: PO Number, PO Date, Delivery Date, Style Description, Location, Quantity, Total Value.
@@ -30,7 +30,7 @@ def extract_data_with_ai(text):
     return response.text
 
 # --- USER INTERFACE ---
-st.title("📦 Smart Customer PO Tracker")
+st.title("Smart Customer PO Tracker")
 
 uploaded_file = st.file_uploader("Upload PO PDF", type="pdf")
 
